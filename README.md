@@ -5,10 +5,10 @@ The main scripts YYYY.sh analyze DAP-seq sequence reads to call peaks and build 
 pipeline dependencies packed into the YYYY conda environment:
 sratoolkit, fastqc... 
 Setting up the YYYY conda environment:
-....
+conda env create -f DAPseqEASY.yml
 
-pipeline dependencies not included in the YYYY conda environment that you'll have to install localy.
-meme version..
+pipeline dependencies not included in the YYYY conda environment that you'll have to install locally.
+meme version v4.12.0
 MSPC version...
 
 
