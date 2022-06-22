@@ -10,5 +10,8 @@ pipeline dependencies not included in the DAPseqEASY conda environment that you'
 meme version v4.12.0
 MSPC version...
 
-
-
+from you working directory:
+mkdir scripts
+move  pipeline.sh, meme2pfm.sh, ROC.R and scores.py into the scripts directory
+conda activate DAPseqEASY
+./pipeline.sh
